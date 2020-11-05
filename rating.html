@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <title>BootstrapMovies</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+          <nav role="navigation" class="navbar navbar-inverse">
+            <div class="container">
+              <div class="navbar-header header">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <h1>BootstrapMovies</h1>
+                              <p>Bootstrap and Movies</p>
+                          </div>
+                      </div>
+                  </div>
+                  <button type="button" data-target="#navbarCollapse" data-toggle="collapse"
+                   class="navbar-toggle">
+                      <span class="sr-only">Toggle nav</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+              </div>
+              <div class="collapse navbar-collapse navbar-right" id="navbarCollapse">
+                <ul class="nav nav-pills">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="show.html">TRAILERS</a></li>
+                    <li><a href="films.html">MOVIES</a></li>
+                    <li class="active"><a href="rating.html">RATING</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="wrapper">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-9 col-lg-push-3">
+                        <form action="#" role="search" class="visible-xs">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="search" class="form-control input-lg" placeholder="Search">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default btn-lg" type="submit" ><i class="glyphicon glyphicon-search"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <h1>TOP-5 Movies</h1>
+                        <hr>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Movie</th>
+                                    <th class="text-center">Year</th>
+                                    <th class="text-center">Ratint</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="col-lg-1 col-md-1 col-sm-1 col-xs-3">
+                                        <img class="img-thumbnail img-responsive" src="assets/img/cloud.png" alt="Atlas Cloud">
+                                    </td>
+                                    <td class="vert-align">
+                                        <a href="#">Cloud Atlas</a>
+                                    </td>
+                                    <td class="text-center vert-align"">
+                                        2010
+                                    </td>
+                                    <td class="text-center vert-align">
+                                       <span class="badge">8.9</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-lg-1 col-md-1 col-sm-1 col-xs-3">
+                                        <img class="img-thumbnail img-responsive" src="assets/img/dead.png" alt="Atlas Cloud">
+                                    </td>
+                                    <td class="vert-align">
+                                        <a href="#">Walking Dead</a>
+                                    </td>
+                                    <td class="text-center vert-align"">
+                                        2010
+                                    </td>
+                                    <td class="text-center vert-align">
+                                       <span class="badge">8.9</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-lg-1 col-md-1 col-sm-1 col-xs-3">
+                                        <img class="img-thumbnail img-responsive" src="assets/img/breakingbad.png" alt="Atlas Cloud">
+                                    </td>
+                                    <td class="vert-align">
+                                        <a href="#">Breaking Bad</a>
+                                    </td>
+                                    <td class="text-center vert-align"">
+                                        2010
+                                    </td>
+                                    <td class="text-center vert-align">
+                                       <span class="badge">8.9</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-lg-1 col-md-1 col-sm-1 col-xs-3">
+                                        <img class="img-thumbnail img-responsive" src="assets/img/inter.png" alt="Atlas Cloud">
+                                    </td>
+                                    <td class="vert-align">
+                                        <a href="#">Interstellar</a>
+                                    </td>
+                                    <td class="text-center vert-align"">
+                                        2010
+                                    </td>
+                                    <td class="text-center vert-align">
+                                       <span class="badge">8.9</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-lg-1 col-md-1 col-sm-1 col-xs-3">
+                                        <img class="img-thumbnail img-responsive" src="assets/img/max.png" alt="Atlas Cloud">
+                                    </td>
+                                    <td class="vert-align">
+                                        <a href="#">Mad Max</a>
+                                    </td>
+                                    <td class="text-center vert-align"">
+                                        2010
+                                    </td>
+                                    <td class="text-center vert-align">
+                                       <span class="badge">8.9</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+
+
+                  </div>
+                  <div class="col-lg-3 col-lg-pull-9">
+                      <div class="panel panel-info hidden-xs">
+                        <div class="panel-heading">
+                            <div class="sidebar-header">Search</div>
+                        </div>
+                        <div class="panel-body">
+                            <form action="#" role="search">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="search" class="form-control input-lg" placeholder="Search">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default btn-lg" type="submit" ><i class="glyphicon glyphicon-search"></i> </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                      </div>
+
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="sidebar-header">Sign In</div>
+                        </div>
+                        <div class="panel-body">
+                            <form action="#" role="form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Login">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control input-lg" placeholder="Password">
+                                </div>
+                                <button type="submit" class="btn btn-warning pull-right">SIGN IN</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="sidebar-header">News</div>
+                        </div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, deserunt corrupti quas asperiores exercitationem inventore consectetur facilis aperiam necessitatibus.</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="sidebar-header">TOP-5</div>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-warning">
+                                    <a href="#">Matrix</a>
+                                    <span class="badge">8.9</span>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="#">Interstellar</a>
+                                    <span class="badge">9.1</span>
+                                </li>
+                                <li class="list-group-item list-group-item-warning">
+                                    <a href="#">Breaking Bad</a>
+                                    <span class="badge">9.9</span>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="#">Walking Dead</a>
+                                    <span class="badge">6.2</span>
+                                </li>
+                                <li class="list-group-item list-group-item-warning">
+                                    <a href="#">Mad Max</a>
+                                    <span class="badge">5.9</span>
+                                </li>
+                            </ul>
+                        </div>
+                  </div>
+              </div>
+          </div>
+          <div class="clear"></div>
+      </div>
+
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <p class="text-center">Viktoria Zubchenko, 2020</p>
+              </div>
+          </div>
+      </footer>
+
+
+      <script src="assets/js/scrypt.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      
+</body>
+</html>
